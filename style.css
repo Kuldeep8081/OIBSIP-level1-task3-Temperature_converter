@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    background-color:#2E4F4F ;
+}
+.sec1{
+    background-color: #071952;
+    width: 55vw;
+    height: 65vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+    border-radius: 3vw;
+    box-shadow: 0 0 2vw 2vw #C70039;
+}
+.sec1>h1{
+    margin-top: 0;
+    padding-top: 3vw;
+    font-size: 4vw;
+    color:#8CABFF;
+}
+.container{
+    display: flex;
+}
+.input_temp{
+    border:0.3vw solid rgb(243, 231, 231);
+    margin-right: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #322653;
+    border-radius: 2vw;
+    box-shadow: 0 0 1vw 1vw;
+}
+.input_temp #Temperature-1{
+    margin-top: 2vw;
+    height: 3vw;
+    border-radius: 1vw;
+    color:#FDE5EC;
+    background-color: #61677A;
+    margin-bottom: 1vw;
+    align-items: center;
+    font-size: 2vw;
+}
+.input_temp #input{
+    height: 3vw;
+    color: #61677A;
+    border-radius: 1vw;
+    padding: 0.5vw;
+    font-weight: bold;
+    font-size: 2vw;
+    width: 25vw;
+    box-shadow: 0 0 0.5vw 0.5vw;
+    background-color: #D8D9DA;
+    margin-bottom: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.convert_to{
+    border: 0.3vw solid #FDE5EC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3F2E3E;
+    border-radius: 2vw;
+    box-shadow: 0 0 1vw 1vw;
+}
+.convert_to p{
+    color: #D8D9DA;
+    margin-top: 0vw;
+    margin-bottom: 3.5vw;
+    text-align: center;
+    font-size: 2.5vw;
+}
+.convert_to #Temperature-2{
+    height: 3vw;
+    background-color: #61677A;
+    color: #D8D9DA;
+    border-radius: 1vw;
+    font-size: 1.8vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-weight: bold;
+}
+.output{
+    background-color: dimgrey;
+    margin-top: 7vw;
+    height: 16vw;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vw;
+    box-shadow: 0 0 1vw 1vw ;
+    border: 0.3vw solid whitesmoke;
+}
+.output p{
+    color: aliceblue;
+    font-size: 3vw;
+}
+.output #output{
+    height: 4vw;
+    width: 28vw;
+    margin-bottom: 2vw;
+    border-radius: 1vw;
+    box-shadow: 0 0 1vw 1vw ;
+    font-size: 2.5vw;
+    background-color: #D8D9DA;
+
+}
+#btn{
+    margin-top: 3vw;
+    height: 5vw;
+    border-radius: 2.5vw;
+    font-size: 3vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border: 0.4vw solid wheat  ;
+    background-color: #FF0303;
+    color: white;
+    box-shadow: 0 0 1vw 1vw ;
+}
+#btn:hover{
+    border: 0.4vw solid #FF0303;
+    background-color: #ff030300;
+    color: #FF0303;
+}
